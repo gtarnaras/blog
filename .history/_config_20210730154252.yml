@@ -92,7 +92,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "devops, cloud, sre, agile, aws, openstack, python"
+#keywords: "my,list,of,keywords"
 
 # --- Colours / background image --- #
 
