@@ -16,8 +16,7 @@ author: George Tarnaras
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-  Author's home: "https://gtarnaras.github.io/"
+  Author's home: "https://gtarnaras.github.io"
 
 # --- Logo --- #
 
@@ -40,13 +39,13 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   # facebook: deanattali
-  github: daattali
+  github: gtarnaras
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: c/daattali
   medium: yourname
 #  reddit: yourname
-  linkedin: daattali
+  linkedin: gtarnaras
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -231,6 +230,8 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+exclude: [vendor]
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

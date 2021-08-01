@@ -1,0 +1,20 @@
+current directory: /Users/georgetarnaras/repos/gtarnaras.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/usr/local/opt/ruby/bin/ruby -I /usr/local/lib/ruby/site_ruby/3.0.0 -r ./siteconf20210731-5812-elwouw.rb extconf.rb
+creating Makefile
+
+current directory: /Users/georgetarnaras/repos/gtarnaras.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/georgetarnaras/repos/gtarnaras.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+1 warning generated.
+compiling ryah_http_parser.c
+warning: unknown warning option '-Wmisleading-indentation'; did you mean '-Wbinding-in-condition'? [-Wunknown-warning-option]
+1 warning generated.
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/georgetarnaras/repos/gtarnaras.github.io/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20210731-5812-9hhreq
