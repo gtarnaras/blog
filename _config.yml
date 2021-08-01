@@ -10,8 +10,8 @@ author: George Tarnaras
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-  Author's home: "https://gtarnaras.github.io"
+  # Resources:
+  Home: "https://gtarnaras.github.io"
 
 # --- Logo --- #
 
