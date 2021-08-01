@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Deploying Sensu-Go on AWS
+subtitle: >-
+  Lessons learned...
 date: '2021-01-05T12:51:59.063Z'
 categories: []
 keywords: []
