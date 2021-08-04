@@ -9,6 +9,7 @@ thumbnail-img: /assets/img/OpenStack.png
 categories: []
 keywords: []
 tags: [AWS, OpenStack, Cloud, DevOps]
+readtime: true
 ---
 
 Probably everyone with OpenStack hands-on experience would agree that sometimes it could be hard and frustrating to install it and test it. Especially if you do not own a small Data Center or the proper physical infrastructure to support its installation needs… However, wouldn’t it be great to use a public cloud provider and its infrastructure to experiment and create POC environments? In this article, I will try to provide the basic steps of how to spin up an OpenStack POC environment on AWS and the things you should modify in order to get OpenStack up and running probably on every cloud provider. So, where to start? The very beginning of course!

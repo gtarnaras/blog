@@ -8,6 +8,7 @@ thumbnail-img: /assets/img/1__0gvBT2vOAAHl1LuBHWS4Vw.png
 categories: []
 keywords: []
 tags: [Docker, DevOps, Monitoring, Dockerfiles]
+readtime: true
 ---
 
 <p align="center">

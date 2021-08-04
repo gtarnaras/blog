@@ -9,6 +9,7 @@ thumbnail-img: /assets/img/terraform.png
 categories: []
 keywords: []
 tags: [Terraform, DevOps]
+readtime: true
 ---
 
 If you’re reading this then I guess you’re in the middle of refactoring your terraform code, trying to make it reusable, easier to maintain and actually be proud enough to share it with others! Writing reusable code in the form of modules can be a challenging task, so I will try to explain some basics below.

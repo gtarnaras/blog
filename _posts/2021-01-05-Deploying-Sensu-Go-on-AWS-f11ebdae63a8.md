@@ -8,6 +8,7 @@ categories: []
 keywords: []
 thumbnail-img: /assets/img/sensu-logo-horizontal.png
 tags: [AWS, Monitoring, SensuGo, Cloud, DevOps]
+readtime: true
 ---
 
 ### Intro

@@ -8,6 +8,7 @@ thumbnail-img: /assets/img/1__YZy6GU7U1nK0QYPL__RZQHA.jpeg
 categories: []
 keywords: []
 tags: [RaspberryPi, DevOps, PiHole, DNS]
+readtime: true
 ---
 
 _I am setting the context before explaining the method I am using. If you just need the solution scroll down to “Preparing our local environment” section._
