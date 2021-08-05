@@ -70,7 +70,7 @@ You need to be able to find your way around with Groovy but still, you will have
 * CI tools should be fun to work with (bring the fun back)!
 * A UI usually implies manual work but CI pipelines should be **fully** automated.
 
-In short, Jenkins has served its purpose and it was a really great tool some years ago... but nowadays it is just too cumbersome. There are way better tools to help you hit the ground running with your CI system.
+In short, Jenkins showed us the way, it has served its purpose and it was a really great tool some years ago... but nowadays it is just too cumbersome. There are way better tools to help you hit the ground running with your CI system.
 
 ### Framework vs Plugins based approach
 
