@@ -8,7 +8,7 @@ date: '2019-07-26T11:06:51.000Z'
 thumbnail-img: /assets/img/OpenStack.png
 categories: []
 keywords: []
-tags: [AWS, OpenStack, Cloud, DevOps]
+tags: [aws, openstack, cloud, devops]
 readtime: true
 ---
 

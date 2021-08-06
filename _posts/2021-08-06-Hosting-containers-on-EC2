@@ -1,0 +1,11 @@
+---
+layout: post
+title: Hosting containerized apps on ec2
+subtitle: >-
+  Sample architecture & path based routing.
+date: '2021-08-06T15:20:31.531Z'
+categories: []
+keywords: []
+tags: [ec2, devops, aws, alb, ci/cd], docker, containers]
+readtime: true
+---

@@ -7,7 +7,7 @@ date: '2021-04-08T00:12:31.531Z'
 thumbnail-img: /assets/img/old_jenkins.jpg
 categories: []
 keywords: []
-tags: [Jenkins, DevOps, CI/CD]
+tags: [jenkins, devops, ci/cd]
 readtime: true
 ---
 

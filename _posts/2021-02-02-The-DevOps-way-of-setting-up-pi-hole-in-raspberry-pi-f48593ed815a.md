@@ -7,7 +7,7 @@ date: '2021-02-02T16:06:39.579Z'
 thumbnail-img: /assets/img/1__YZy6GU7U1nK0QYPL__RZQHA.jpeg
 categories: []
 keywords: []
-tags: [RaspberryPi, DevOps, PiHole, DNS]
+tags: [raspberrypi, devops, pihole, dns]
 readtime: true
 ---
 
