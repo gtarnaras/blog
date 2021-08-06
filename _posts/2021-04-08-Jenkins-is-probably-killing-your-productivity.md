@@ -32,7 +32,7 @@ I am pretty sure you have heard something similar in your organisation or dev te
 
 I have highlighted the **we** in the phrases above. I did, because most probably the "we" was not your dev team but your *Jenkins expert*, and here is the first problem. How many people in your team actually know how to use Jenkins and are able to write pipelines without having to ask "*the Jenkins expert*" for help?
 
-This tool started **10+ years ago**, mostly for building/compiling Java applications. Since then, the whole CI/CD ecosystem has evolved dramatically and many other CI/CD tools were developed and are now mature for production usage. However, not many organisations or teams made or even planning a move to a different CI system. Why?
+This tool started **10+ years ago**, mostly for building/compiling Java applications. Since then, the whole CI/CD ecosystem has evolved dramatically and many other CI/CD tools were developed and are now mature for production usage. However, not many organisations or teams made or even planned a move to a different CI system. Why?
 
 ### Jenkins is now a legacy system
 
@@ -44,11 +44,11 @@ It might not be 30 years old but considering how fast the software ecosystem is 
 - You just love it!
 
 
-After all, you have probably invested **tons** of hours to configure Jenkins, write the pipelines, scale it, secure it, maintain it and of course choose the right plugins! Hundreds of fancy plugins that someone will be tempted to install... And once everything is up an running you will realise that your code and Jenkinsfiles are now plugin specific or you need a newer Java version installed and so on and so fourth... All these mean just one thing.
+After all, you have probably invested **tons** of hours to configure Jenkins, write the pipelines, scale it, secure it, maintain it and of course choose the right plugins; hundreds of fancy plugins that someone will be tempted to install... And once everything is up and running it will become clearer that your code and Jenkinsfiles are now plugin specific or you need a newer Java version installed and so on and so fourth... All these mean just one thing.
 
 **You're wasting a lot of valuable time and energy.**
 
-You and your team spend more time building expertise around Jenkins. Hours and hours are spent to configure and maintain the tool instead of writing code to e.g. automate tests, collaborate with other teams or just think how to improve things. It is notorious difficult to scale Jenkins, fully automate its deployment and configuration, do a failover, deal with its JVM memory issues, or even write a simple pipeline.
+You and your team spend more time building expertise around Jenkins. Hours and hours are spent to configure and maintain the tool instead of writing code to e.g. automate tests, collaborate with other teams or just think how to improve things. It is notoriously difficult to scale Jenkins, fully automate its deployment and configuration, do a failover, deal with its JVM memory issues, or even write a simple pipeline.
 
 You need to be able to find your way around with Groovy but still, you will have to spend a lot of time to test your code and make it work as you wish. Oh, and probably every team will want its own Jenkins instance to have more freedom to develop and test their code, so more maintenance work on the way! I believe [this](https://www.reddit.com/r/devops/comments/jgodgb/jenkins_help_to_understand) reddit post is self-explanatory:
 
@@ -59,24 +59,24 @@ You need to be able to find your way around with Groovy but still, you will have
 
 ### If not Jenkins then what?
 
- You CI system should not have any unnecessary complexities and it should be easy to work with.
+ Your CI system should not have any unnecessary complexities and it should be easy to work with.
 
-* Your pipelines have to be tested exactly as you're testing your code.
+* You need to be able to test your pipelines the same way you test your code.
 * You need to have separate stages for dev/test/prod.
 * Your devs have to be able to experiment with the code they are writing.
 * Restoring your configuration after a failure should **not** require any effort.
 * You should not have to open 10 new tabs and wait hours and hours to load build results.
 * You probably do not need so many plugins...
-* CI tools should be fun to work with (bring the fun back)!
+* CI tools should be fun to work with! (Bring the fun back!)
 * A UI usually implies manual work but CI pipelines should be **fully** automated.
 
 In short, Jenkins showed us the way, it has served its purpose and it was a really great tool some years ago... but nowadays it is just too cumbersome. There are way better tools to help you hit the ground running with your CI system.
 
 ### Framework vs Plugins based approach
 
-Solutions like Gitlab CI or Github Actions allow you to start writing pipelines in minutes and in languages that are extremely easy to work with (yml, shell or python scripts etc). Adopting these tools will help you have **a framework based approach** for developing your CI system instead of a plugins based solution. They integrate far better with technologies like Docker and it is way more simple to interact with their APIs in order to develop automation around them.
+Solutions like Gitlab CI or Github Actions allow you to start writing pipelines in minutes and in languages that are extremely easy to work with (yml, shell or python scripts etc). Adopting these tools will help you have **a framework based approach** for developing your CI system instead of a plugins based solution. They integrate far better with technologies like Docker and it is way simpler to interact with their APIs in order to develop automation around them.
 
-A CI system should help you build your code fast and reliable so that you are able to release it without surprises. That's where the DevOps philosophy comes into play and Jenkins does not seem able to keep up anymore.
+A CI system should help you build your code fast and reliably so that you are able to release it without surprises. That's where the DevOps philosophy comes into play and Jenkins does not seem able to keep up anymore.
 
 p.s.1
 
@@ -84,4 +84,4 @@ If you're still not convinced then get a stopwatch and compare the time it takes
 
 p.s.2
 
-I did not even mention that Jenkins is often used as a CD tool as well... Will try to write a new article just about CD tools.
+I did not even mention that Jenkins is often used as a CD tool as well... I will try to write a new article just about CD tools.
