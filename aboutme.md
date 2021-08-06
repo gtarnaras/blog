@@ -9,3 +9,6 @@ things cloud! I am always open to learning new things, collaborating and exchang
 As such, feel free to have a look around in my blog or reach out to me directly using the links below.
 </div>
 &nbsp;
+
+
+Opinions expressed in this site/blog are solely my own and do not express the views or opinions of my employer or my clients.
