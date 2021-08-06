@@ -3,7 +3,7 @@ layout: post
 title: Jenkins is probably killing your productivity
 subtitle: >-
   Time to say goodbye.
-date: '2021-08-04T00:12:31.531Z'
+date: '2021-04-08T00:12:31.531Z'
 thumbnail-img: /assets/img/old_jenkins.jpg
 categories: []
 keywords: []
