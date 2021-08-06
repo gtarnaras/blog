@@ -11,7 +11,7 @@ tags: [Jenkins, DevOps, CI/CD]
 readtime: true
 ---
 
-### Jenkins =! DevOps
+### Jenkins != DevOps
 
 Let's start by clarifying that Jenkins is not a DevOps synonym and DevOps does not mean Jenkins. The fact that you started using Jenkins a while ago (or you're now probably stuck with it) does not mean you are doing "DevOps". As many other fellow engineers have mentioned out there:
 
