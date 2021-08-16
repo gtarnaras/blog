@@ -89,7 +89,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "devops, sre, cloud, aws, agile, software engineering"
+keywords: "devops, sre, cloud, aws, agile, software engineering, aws, ci/cd"
 
 # --- Colours / background image --- #
 
