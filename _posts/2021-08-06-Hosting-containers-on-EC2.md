@@ -4,6 +4,7 @@ title: Hosting containerised apps on EC2 using an ALB
 subtitle: >-
   Sample architecture (Path based routing & SSO).
 date: '2021-08-06T15:20:31.531Z'
+thumbnail-img: /assets/img/path_based_routing.png
 categories: []
 keywords: []
 tags: [ec2, devops, aws, alb, ci/cd, docker, containers]
