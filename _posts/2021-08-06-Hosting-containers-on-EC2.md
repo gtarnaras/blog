@@ -2,7 +2,7 @@
 layout: post
 title: Hosting containerised apps on EC2 using an ALB
 subtitle: >-
-  Sample architecture & path based routing.
+  Sample architecture (Path based routing & SSO).
 date: '2021-08-06T15:20:31.531Z'
 categories: []
 keywords: []
@@ -10,7 +10,7 @@ tags: [ec2, devops, aws, alb, ci/cd, docker, containers]
 readtime: true
 ---
 
-## K8S is not saving the entire the world (yet)
+## K8S has not not saved the entire the world (yet)
 
 I bet that the first word that comes to your mind when you hear the words microservices and containers is K8S. Well, guess what! Not everyone is using Kubernetes and it is absolutely fine! As with every piece of technology K8S aims to solve specific problems. However, if you are not facing these problems but you also want to take advantage of the containerisation benefits then you can host your containers on traditional compute instances/resources like ec2 or fargate. On this blogpost I am going to focus on a problem (oops, I meant to say challenge) I recently faced when I had to deploy multiple containers on the same ec2 instance. The reason for doing this is of course... cost. There is no need to spin up multiple ec2 instances to host some microservices. However, I also wanted to be able to scale the infrastructure as needed and take advantage of the containerisation benefits. Let me describe the challenge then!
 
@@ -33,7 +33,7 @@ Microservice 4 : <app_endpoint>/service/four/...
 
 There are multiple ways to solve this problem but I'd like to present a solution based on the usage of an ALB and its features. The ALB is extremely powerful and feature rich and it is allowing us to build really nice flows with our containers. Specifically, the ALB allows us to execute path based routing but also has built-in authentication support. Back to our problem, I was mostly concerned about my URLs/endpoints and how these were exposed.
 
-Creating target groups according to the URL each microservice is exposing (e.g. a target group running only instances of microservice type 1) is not a good solution, mostly because it is a waste of resources and it is limiting our ability to place containers wherever it is cheaper (using spot instances, autoscaling groups etc.). Other than that, creating multiple listeners that listen on different ports and redirect traffic to the corresponding target group, is obviously not an good option. I also did not want to puzzle the end users with many different ports for the same application/service. The fact that the service is containerised does not mean we have to also break down its entry-point to many other entry-points/ports.
+Creating target groups according to the URL each microservice is exposing (e.g. a target group running only instances of microservice type 1) is not a good solution, mostly because it is a waste of resources and it is limiting our ability to place containers wherever it is cheaper (using spot instances, autoscaling groups etc.). Other than that, creating multiple listeners that listen on different ports and redirect traffic to the corresponding target group, is obviously not an good option. I also did not want to puzzle the end users with providing many different ports for the same application/service. The fact that the service is containerised does not mean we have to also break down its entry-point to many other entry-points/ports.
 
 To sum up, I 've just wanted to share one application endpoint while also being able to scale the application. This makes it easier to maintain the service from an infrastructure point of view and keep the cost low. Let's go have a look in the sample solution.
 
