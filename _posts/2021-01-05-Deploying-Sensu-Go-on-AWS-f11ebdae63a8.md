@@ -7,7 +7,7 @@ date: '2021-01-05T12:51:59.063Z'
 categories: []
 keywords: []
 thumbnail-img: /assets/img/sensu-logo-horizontal.png
-tags: [AWS, Monitoring, SensuGo, Cloud, DevOps]
+tags: [aws, monitoring, sensugo, cloud, devops]
 readtime: true
 ---
 

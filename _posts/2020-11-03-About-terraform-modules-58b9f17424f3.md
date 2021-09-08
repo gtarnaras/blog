@@ -8,7 +8,7 @@ date: '2020-11-03T09:26:41.000Z'
 thumbnail-img: /assets/img/terraform.png
 categories: []
 keywords: []
-tags: [Terraform, DevOps]
+tags: [terraform, devops]
 readtime: true
 ---
 

@@ -7,7 +7,7 @@ date: '2021-02-17T00:49:31.531Z'
 thumbnail-img: /assets/img/1__0gvBT2vOAAHl1LuBHWS4Vw.png
 categories: []
 keywords: []
-tags: [Docker, DevOps, Monitoring, Dockerfiles]
+tags: [docker, devops, monitoring, dockerfiles]
 readtime: true
 ---
 
