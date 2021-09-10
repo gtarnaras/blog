@@ -47,7 +47,7 @@ An elegant solution for this problem is to use path based routing. This allows u
 </p>
 
 
-In terraform we will need a listener rule that would look like below:
+In terraform we will need a listener rule that looks like below:
 
 ```
 resource "aws_lb_listener_rule" "static" {
@@ -69,8 +69,8 @@ resource "aws_lb_listener_rule" "static" {
 
 **SSO Authentication with OIDC**
 
-As I mentioned earlier, the endpoint for Microservice 4 (<app_endpoint>/service/four/... ) had to be protected. Again, the ALB provides a really
-easy and automation-friendly solution. In this case I 've used OIDC, an authorisation layer built on OAuth 2.0 protocol. Another solution would be to use Amazon's Cognito service. Again here's how the terraform code would look lke in order to authenticate our users and then forward them to the specified endpoint.
+As I mentioned earlier, the endpoint for Microservice 4 (<app_endpoint>/service/four/... ) had to be protected. The ALB provides a really
+easy and automation-friendly solution. In this case I 've used OIDC, an authorisation layer built on OAuth 2.0 protocol. Another solution would be to use Amazon's Cognito service. Again, here's how the terraform code in order to authenticate our users and then forward them to the specified endpoint looks like.
 
 ```
 resource "aws_lb_listener_rule" "oidc" {
