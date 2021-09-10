@@ -19,7 +19,7 @@ I bet that the first word that comes to your mind when you hear the words micros
 
 - I had to run a microservices-based application consisting of many different containers which had to be part of specific target groups.
 
-- Each microservice/container was exposing a different endpoint. The endpoint had to be accessible from the same url and port - SSL(443). To make it more clear, my endpoints map  looked like below:
+- Each microservice/container was exposing a different endpoint. The endpoint had to be accessible from the same url and port - SSL(443). To make it more clear, my endpoints' map  looked like below:
 
 ```
 Microservice 1 : <app_endpoint>/service/one/...
