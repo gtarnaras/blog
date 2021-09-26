@@ -89,7 +89,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "devops, sre, cloud, aws, agile, software engineering, aws, ci/cd"
+keywords: "gtarnaras, tarnaras, devops, sre, cloud, agile, software engineering, aws, ci/cd"
 
 # --- Colours / background image --- #
 
@@ -158,11 +158,11 @@ google_analytics: "UA-203686957-1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-utterances:
- repository: gtarnaras/gtarnaras.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
- issue-term: title   # Mapping between blog posts and GitHub issues
- theme: github-light # Utterances theme
- label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+# utterances:
+#  repository: gtarnaras/gtarnaras.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
+#  issue-term: title   # Mapping between blog posts and GitHub issues
+#  theme: github-light # Utterances theme
+#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
