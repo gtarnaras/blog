@@ -10,9 +10,8 @@ readtime: true
 
 # Intro
 
-I am not sure if you guys have a list of "favorite worst problems" to deal with, but SSL exceptions have a place near the top of my list. 
-
-Certificate issues are difficult to troubleshoot and logs are often quite cryptic and do not help with the problem resolution. That said, each time I see the exception below I know that fun times are ahead!
+Certificate issues are difficult to troubleshoot and logs are quite often cryptic and do not contribure towards the problem resolution. 
+That said, every time I see the exception below I know that fun times are ahead!
 
 ```
 caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
