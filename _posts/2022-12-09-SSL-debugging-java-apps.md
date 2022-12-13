@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Tips for debugging SSL in Java
+title: Debugging SSL in Java
+subtitle: >-
+  Just tips, no tricks here!
 date: '2022-12-09T14:43:51.000Z'
 categories: []
 keywords: []
