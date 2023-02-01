@@ -12,8 +12,8 @@ readtime: true
 
 # Intro
 
-Debugging Secure Socket Layer (SSL) issues are difficult to troubleshoot and logs are quite often cryptic and do not contribure towards the problem resolution. In this article, we will look at some common SSL debugging tips that can help you resolve SSL issues in your Java application.
-That said, every time I see the exception below I know that fun times are ahead!
+Debugging Secure Socket Layer (SSL) issues can be difficult to troubleshoot as logs are often cryptic and do not contribute to the resolution of the problem. In this article, we will examine some common SSL debugging tips that can help you resolve SSL issues in your Java application.
+That being said, every time I encounter the following exception, I know that resolving the issue will be a challenge!
 
 ```
 caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: 
@@ -48,7 +48,7 @@ p.s. You could set ```-Djavax.net.debug=ssl``` instead of ```ssl:handshake``` bu
 
 ### Check the certificates of the target host
 
-Before assuming that fault is on the application side, use openssl to check the certificate chain on the server you are trying to connect to. Sometimes SSL issues can occur due to incorrect or expired SSL certificates. 
+Before assuming that the fault lies with the application, use openssl to check the certificate chain on the server you are trying to connect to. Sometimes, SSL issues can occur due to incorrect or expired SSL certificates.
 
 ```
 openssl s_client -connect <host>:<port>
@@ -59,8 +59,7 @@ and check the "Certificate chain" part.
 
 ### Verify the truststore of your app
 
-Now that you know how the certificate chain looks like, make sure your truststore is properly configured. Couple of things to check here:
-
+Now that you have checked the certificate chain, make sure that your truststore is properly configured. There are a few things to check here:
 
 - Make sure you trust the ca cert presented by the target host.
 ```
@@ -142,7 +141,7 @@ java -Djavax.net.ssl.trustStore=/path/to/your/trustststore SSLPoke <hostname> <p
 
 ### Be patient :) 
 
-SSL Debugging and certificate chain verification can take time, grab a coffee and good luck!
+SSL debugging and certificate chain verification can be time-consuming, so grab a coffee and good luck!
 
 ### Further Reading:
 
