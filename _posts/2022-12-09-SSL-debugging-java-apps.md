@@ -12,7 +12,7 @@ readtime: true
 
 # Intro
 
-Certificate issues are difficult to troubleshoot and logs are quite often cryptic and do not contribure towards the problem resolution. 
+Debugging Secure Socket Layer (SSL) issues are difficult to troubleshoot and logs are quite often cryptic and do not contribure towards the problem resolution. In this article, we will look at some common SSL debugging tips that can help you resolve SSL issues in your Java application.
 That said, every time I see the exception below I know that fun times are ahead!
 
 ```
@@ -23,6 +23,17 @@ unable to find valid certification path to requested target
 
 # Troubleshooting Tips
 
+### Verify SSL Configuration
+
+First things first. We need to verify that the correct keystore and truststore files are being used, and that the keystore password and alias are correct. You can also verify that the SSL configuration is being applied correctly by using the application.properties or application.yml file to set the following properties:
+
+```
+server.ssl.key-store=<path to keystore file>
+server.ssl.key-store-password=<keystore password>
+server.ssl.key-alias=<key alias>
+server.ssl.trust-store=<path to truststore file>
+server.ssl.trust-store-password=<truststore password>
+```
 
 ### Turn on JVM SSL Debugging
 
@@ -37,10 +48,10 @@ p.s. You could set ```-Djavax.net.debug=ssl``` instead of ```ssl:handshake``` bu
 
 ### Check the certificates of the target host
 
-Before assuming that fault is on the application side, use openssl to check the certificate chain on the server you are trying to connect to.
+Before assuming that fault is on the application side, use openssl to check the certificate chain on the server you are trying to connect to. Sometimes SSL issues can occur due to incorrect or expired SSL certificates. 
 
 ```
-openssl s_client -connect <host>:<443>
+openssl s_client -connect <host>:<port>
 ``` 
  
 and check the "Certificate chain" part.
