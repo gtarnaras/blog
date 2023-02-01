@@ -13,7 +13,7 @@ readtime: true
 
 ## K8S has not saved the entire the world (yet)
 
-I bet that the first word that comes to your mind when you hear the words microservices and containers is K8S. Well, guess what! Not everyone is using Kubernetes and it is absolutely fine! As with every piece of technology K8S aims to solve specific problems. However, if you are not facing these problems but you also want to take advantage of the containerisation benefits, then you can host your containers on traditional compute instances/resources like EC2 or Fargate. In this blogpost I am going to focus on a problem (oops, I meant to say challenge) I recently faced when I had to deploy multiple containers on the same ec2 instance. The reason for doing this is of course... cost. However, I also wanted to be able to scale the infrastructure as needed and take advantage of the containerisation benefits. Let me describe the challenge then!
+When you hear the words 'microservices' and 'containers,' the first thing that comes to mind is probably Kubernetes. Well, guess what! Not everyone is using Kubernetes and it is perfectly fine! Like any technology, K8S aims to solve specific problems. But if you don't have these problems ad still want to take advantage of the containerisation benefits, then you can host your containers on traditional compute instances and resources like EC2 or Fargate. In this blogpost I am going to focus on a problem (oops, I meant to say challenge) I recently faced when I had to deploy multiple containers on the same ec2 instance. The reason for doing this is of course... cost savings! I also wanted to be able to scale the infrastructure as needed and take advantage of the benefits of containerisation. Let me describe the challenge now!
 
 ### Problem
 
