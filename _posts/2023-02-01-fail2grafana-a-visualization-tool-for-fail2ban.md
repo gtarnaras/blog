@@ -46,4 +46,5 @@ Living in managed world and this level of abstraction obviously has its pros and
 Now, some companies already rushed to call this DevSecOps but we never managed to define what DevOps means so I'd rather keep security built-into every aspect of our work!
 
 Preparing for a security breach is more important than simply hoping to avoid one. Inevitably, every organization will face attempted hacks and data breaches. Therefore, it is crucial to have robust security measures in place to minimise the impact of such incidents.  
+
 When a security incident does occur, the organization must be prepared to respond quickly and effectively to contain the damage. By taking a proactive approach to security, companies can build a robust and resilient security posture that can weather any attack with confidence and minimal impact. Good luck!
