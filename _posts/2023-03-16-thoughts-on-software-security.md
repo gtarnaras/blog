@@ -3,7 +3,7 @@ layout: post
 title: Some thoughts on software and data security 
 subtitle: >-
   Running a honeypot server for a month 
-date: '2023-1-06T15:20:31.531Z'
+date: '2023-03-16T15:20:31.531Z'
 thumbnail-img: /assets/img/rusty-lock.jpg
 categories: []
 keywords: []
