@@ -14,6 +14,7 @@ navbar-links:
     - GitHub: "https://github.com/gtarnaras"
     - LinkedIn: "https://linkedin.com/in/gtarnaras"
   Blog: "/blog"
+  ToRead: "/toread"
   Projects: "/projects"
   Tags: "tags"
 
@@ -89,7 +90,7 @@ feed_show_tags: true
 post_search: true
 
 # The keywords to associate with your website, for SEO purposes
-keywords: "gtarnaras, tarnaras, devops, sre, cloud, agile, software engineering, aws, ci/cd, kubernetes, k8s, java, springboot, monitoring"
+keywords: "gtarnaras, tarnaras, devops, sre, cloud, agile, software engineering, aws, ci/cd, kubernetes, k8s, java, springboot, monitoring, chatgpt, ai"
 
 # --- Colours / background image --- #
 
@@ -130,7 +131,7 @@ footer-link-col: "#404040"
 gtag: "G-J77XWBP9X6"
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-google_analytics: "G-T6FV10700P "
+google_analytics: "G-T6FV10700P"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""

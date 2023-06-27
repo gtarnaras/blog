@@ -4,7 +4,7 @@ title: Some thoughts on software and data security
 subtitle: >-
   Running a honeypot server for a month 
 date: '2023-03-16T15:20:31.531Z'
-thumbnail-img: /assets/img/rusty-lock.jpg
+thumbnail-img: /assets/img/honeypot2.png
 categories: []
 keywords: []
 tags: [fail2ban, devops, vps, security, ci/cd, docker, containers, ssh, grafana, devsecops]

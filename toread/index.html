@@ -1,0 +1,28 @@
+---
+layout: page
+---
+<center><h2>Reading Reminders</h2></center>
+&nbsp;
+
+<body>
+    <!-- just add a new item to the list -->
+    <ul id="myList"> 
+        <li>https://matduggan.com/were-all-doing-metrics-wrong</li>
+    </ul>
+
+    <script>
+        var myList = document.getElementById('myList');
+        var items = myList.getElementsByTagName('li');
+
+        for (var i = 0; i < items.length; i++) {
+            var text = items[i].innerHTML;
+            var link = document.createElement('a');
+            link.href = text;  // Set the hyperlink destination to the text itself
+            link.textContent = text;
+            items[i].innerHTML = '';  // Remove the original text
+            items[i].appendChild(link);
+        }
+    </script>
+
+</body>
+</html>
