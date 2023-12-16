@@ -293,5 +293,3 @@ We are now somehow familiar with how packets flow within OpenStack and AWS netwo
     `ip netns exec qrouter-a3da6290-eb4f-444c-9abc-ed75382c2484 ping 8.8.8.8`
 
 We’re now ready! Our internal instances should be able to reach the internet! Have fun playing with OpenStack!
-
-_Originally published at_ [_https://automationlogic.com_](https://automationlogic.com/installing-open-stack-on-aws-by-george-tarnaras/) _on July 26, 2019._

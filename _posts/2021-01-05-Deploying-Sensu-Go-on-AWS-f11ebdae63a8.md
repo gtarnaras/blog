@@ -184,5 +184,3 @@ Am I forgetting something?
 Probably! If everyone in your team knows what is happening though, they will let you know! Keep everyone involved. Monitoring and reliability are a team effort.
 
 p.s. Special thanks to Goncalo Barroso and Robert Mason for reviewing the article and making this an easier read for everyone.
-
-_Originally published at_ [_https://automationlogic.com_](https://automationlogic.com/about-terraform-modules-an-explainer-by-george-tarnaras/) _on February 13, 2020._

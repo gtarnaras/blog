@@ -97,5 +97,3 @@ We just need to define our code in the main.yml
 Thanks for reading and hopefully you now have a better understanding on terraform modules!
 
 _p.s. Special thanks to Goncalo Barroso for reviewing the article and make it an easier read for everyone!_
-
-_Originally published at_ [_https://automationlogic.com_](https://automationlogic.com/about-terraform-modules-an-explainer-by-george-tarnaras/) _on November 3, 2020._
